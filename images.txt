@@ -1,6 +1,10 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+amd64/alpine:3.18
+arm64v8/alpine:3.18
+houwm/jdk8:x86-64
+houwm/jdk8:arm64
+mysql:5.7.42
+nil01/mysql_arm:5.7.33
+mysql:8.0.39
+--platform linux/arm64 mysql:8.0.39
+
+
